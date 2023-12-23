@@ -1,0 +1,6 @@
+@import 'variables';
+
+body {
+  background: #{$backgroundGradient} #{$veryDarkGrey};
+  font-size: 16px;
+}

@@ -7,5 +7,14 @@ export default defineNuxtConfig({
       enabled: true,
     },
   },
-  css: ['~/assets/css/normalize.css'],
+  css: ['~/assets/css/normalize.css' ,'~/assets/scss/global.scss'],
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@import "~/assets/scss/variables.scss";'
+        }
+      }
+    }
+  }
 })
