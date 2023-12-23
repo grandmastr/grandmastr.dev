@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   },
   css: ['~/assets/css/normalize.css' ,'~/assets/scss/global.scss'],
   vite: {
+    plugins: [],
     css: {
       preprocessorOptions: {
         scss: {

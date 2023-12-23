@@ -4,7 +4,7 @@ $veryDarkGrey: #363636;
 $darkGrey: #070707;
 $blackGrey: #0D0D0D;
 $veryBlackGrey: #141414;
-$varyDarkBlue: #111112;
+$veryDarkBlue: #111112;
 $white: #FFFFFF;
 $lightRed: #FF6058;
 $darkRed: #951F1F;
@@ -12,8 +12,7 @@ $lightOrange: #FEBC30;
 $darkOrange: #C38400;
 $lightLime: #29C941;
 $darkLime: #008414;
-
-$backgroundGradient: linear-gradient(2deg, #{$veryBlackGrey} 0%, #{$veryDarkGrey} 100%) 0% 0% no-repeat fixed;
+$backgroundGradient: linear-gradient(0, #{$veryBlackGrey} 0%, #{$veryDarkGrey} 100%);
 
 // breakpoints (width)
 $small: 420px;

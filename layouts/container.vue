@@ -7,7 +7,7 @@
 <style lang="scss" scoped>
 div {
   margin: auto;
-  max-width: #{$large};
+  max-width: #{$extraLarge};
   padding: 1rem 2rem;
 }
 </style>
